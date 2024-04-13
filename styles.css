@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-header {
+.header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -11,6 +11,19 @@ header {
   border-bottom: 3px solid rgb(70, 58, 58);
   background-color: rgb(138, 117, 117);
   color: white;
+}
+
+.section-nav {
+  background-color: black;
+  height: min-content;
+  color: wheat;
+}
+
+.section-links {
+  margin: auto;
+  width: 30%;
+  min-width: 200px;
+  align-items: center;
 }
 
 nav {
@@ -54,4 +67,20 @@ td {
   border: 1px solid black;
   padding: 5px 10px;
   text-align: left;
+}
+
+h2 {
+  border-bottom: 2px solid grey;
+}
+
+img,
+video {
+  height: 300px;
+  width: auto;
+  padding: 8px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
 }

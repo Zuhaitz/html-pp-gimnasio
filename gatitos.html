@@ -8,11 +8,56 @@
   </head>
   <body>
     <header>
-      <h1>Gimnasio El Gordo Gervasio</h1>
-      <nav>
-        <a href="./">Gimnasio</a>
-        <a href="gatitos.html">Gatitos</a>
-      </nav>
+      <div class="header">
+        <h1>Gimnasio El Gordo Gervasio</h1>
+        <nav>
+          <a href="./">Gimnasio</a>
+          <a href="gatitos.html">Gatitos</a>
+        </nav>
+      </div>
+
+      <div class="section-nav">
+        <nav class="section-links">
+          <a href="#images">Imágenes</a>
+          <p>|</p>
+          <a href="#video">Video</a>
+          |
+          <a href="#audio">Audio</a>
+        </nav>
+      </div>
     </header>
+
+    <main>
+      <section id="images">
+        <h2>Imágenes</h2>
+        <div class="img-container">
+          <img
+            src="https://images.pexels.com/photos/20726113/pexels-photo-20726113/free-photo-of-ciudad-paisaje-puesta-de-sol-panorama-urbano.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Vistas a ciudad"
+          />
+          <img
+            src="https://cdn.pixabay.com/photo/2021/04/27/18/26/cygnet-6212139_640.jpg"
+            alt="Foto de un ave"
+          />
+        </div>
+      </section>
+      <section id="video">
+        <h2>Video</h2>
+        <video controls autoplay loop>
+          <source
+            src="https://cdn.pixabay.com/video/2019/11/04/28707-371213524_tiny.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support this video tag.
+        </video>
+      </section>
+      <section id="audio">
+        <h2>Sonido</h2>
+        <audio controls autoplay loop>
+          <source src="assets/coverless-book-lofi-186307.mp3" />
+          Your browser does not support this video tag.
+        </audio>
+      </section>
+    </main>
   </body>
 </html>
