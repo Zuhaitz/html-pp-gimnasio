@@ -3,17 +3,33 @@ body {
 }
 
 header {
-  justify-content: space-between;
-  flex-direction: row;
   display: flex;
-  margin: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
   padding: 0 20px;
-  background-color: whitesmoke;
-  border-bottom: 1px solid gray;
+  border-bottom: 3px solid rgb(70, 58, 58);
+  background-color: rgb(138, 117, 117);
+  color: white;
 }
 
 nav {
+  display: flex;
+  justify-content: space-between;
   margin: auto 10px;
+  padding: 5px;
+}
+
+nav a {
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 main {
@@ -21,14 +37,16 @@ main {
 }
 
 table {
+  margin: auto;
   border-spacing: 0;
   border-collapse: collapse;
   table-layout: fixed;
-  width: 650px;
+  max-width: 750px;
+  width: 100%;
 }
 
 th {
-  background-color: whitesmoke;
+  background-color: rgb(199, 199, 199);
 }
 
 th,
