@@ -17,6 +17,7 @@ body {
   background-color: black;
   height: min-content;
   color: wheat;
+  font-weight: bolder;
 }
 
 .section-links {
