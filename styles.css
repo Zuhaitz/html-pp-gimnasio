@@ -79,6 +79,7 @@ video {
   height: 300px;
   width: auto;
   padding: 8px;
+  border-radius: 20px;
 }
 
 .img-container {
